@@ -32,6 +32,7 @@
 .hamburguer-button[aria-expanded="false"] .icon::before {
     content: "\2630";
     border: 1.5px solid white;
+    padding: 0 10px;
 }
 
 .hamburguer-button[aria-expanded="true"] .icon::before {
