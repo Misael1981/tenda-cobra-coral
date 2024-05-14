@@ -13,7 +13,7 @@
 }
 
 .nav-menu {
-    background-color: #333;
+    background-color: var(--bg-dark);
     color: var(--text-light);
     padding: 10px;
     position: relative;
@@ -31,16 +31,28 @@
 
 .hamburguer-button[aria-expanded="false"] .icon::before {
     content: "\2630";
+    border: 1.5px solid white;
 }
 
 .hamburguer-button[aria-expanded="true"] .icon::before {
     content: "\2715";
 }
 
+.hamburguer-button .icon {
+    font-size: 30px;
+  }
 
+.hamburguer-button-js-enabled + .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: calc(100% - 30px);
+    left: 15px;
+    top: 85px;
+}
 
-.hamburguer-button-js-enabled {
-    display: block;
+.hamburguer-button-js-enabled + .menu-closed {
+    display: none;
 }
 
 .menu li a {
@@ -70,12 +82,17 @@
     cursor: pointer;
 }
 
+.hamburguer-button-js-enabled {
+    display: block;
+}
+
 @media (min-width: 768px) {
     .hamburguer-button {
         display: none;
     }
 
-    .menu {
+    .hamburguer-button-js-enabled + .menu {
+        position: static;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
