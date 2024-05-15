@@ -13,7 +13,7 @@
 }
 
 .nav-menu {
-    background-color: red;
+    background-color: var(--text-dark);
     color: var(--text-light);
     padding: 10px;
     position: relative;
