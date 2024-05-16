@@ -1,3 +1,7 @@
+.sobre-nos {
+    background-color: var(--br-red);
+}
+
 .swiper {
     width: 240px;
     height: 320px;

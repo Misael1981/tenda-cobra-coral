@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kolker+Brush&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
 * {
+    font-family: var(--fonte-principal);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,7 +21,13 @@ html {
 :root {
     --text-dark: #000;
     --text-light: #fff;
+    --text-red: #C40C0C;
 
     --bg-header: #005B41;
     --bg-dark: #000;
+    --br-red: #C40C0C;
+
+    --fonte-principal: "Source Serif 4", serif;
+    --fonte-secundaria: "Dancing Script", cursive;
+    --fonte-titulo: "Kolker Brush", cursive;
 }

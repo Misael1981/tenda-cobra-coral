@@ -57,11 +57,12 @@
 }
 
 .menu li a {
-    color: var(--text-light);
     padding: 10px;
     display: block;
     text-decoration: none;
     font-size: 2rem;
+    color: var(--text-light);
+    font-family: "Source Serif 4", serif;
 }
 
 .menu li {
