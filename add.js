@@ -51,3 +51,8 @@ function handleMediaQueryChange (e) {
 
 mediaQuery.addEventListener('change', handleMediaQueryChange)
 handleMediaQueryChange(mediaQuery);
+
+let swiper = new Swiper(".mySwiper", {
+    effect: "cards",
+    grabCursor: true,
+  });
