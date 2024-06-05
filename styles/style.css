@@ -24,9 +24,13 @@ html {
     --text-red: #C40C0C;
     --text-green: #005B41;
 
-    --bg-header: #005B41;
+    --bg-green-light: #005b41fa;
+    --bg-green-dark: #103a2efa;
+    --bg-green-tranparent: #094b3869;
+    --bd-terra: #AF8F6F;
     --bg-dark: #000;
-    --br-red: #C40C0C;
+    --bg-red: #C40C0C;
+    --bg-white: #fff;
 
     --fonte-principal: "Source Serif 4", serif;
     --fonte-secundaria: "Dancing Script", cursive;

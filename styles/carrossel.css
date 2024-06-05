@@ -13,15 +13,16 @@
 }
 
 .sobre-nos__descrição {
+    background: linear-gradient(to right, #094b3869 100%, #094b38 75%, #094b38 50%), url(../img/imagens-carrossel/img1.jpg)no-repeat;
     width: 40vw;
-    background: #AF8F6F;
+    object-fit: cover;
     border-radius: 10px;
 }
 
 .sobre-nos__descrição h1 {
     font-family: var(--fonte-titulo);
     font-size: 8rem;
-    color: var(--text-green);
+    color: var(--text-red);
     text-align: center;
 }
 
@@ -32,6 +33,7 @@
 }
 
 .sobre-nos__descrição p {
+    color: var(--text-light);
     font-family: var(--fonte-secundaria);
     font-size: 2.5rem;
     padding: 1rem;
