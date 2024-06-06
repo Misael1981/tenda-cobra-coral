@@ -31,6 +31,7 @@ html {
     --bg-dark: #000;
     --bg-red: #C40C0C;
     --bg-white: #fff;
+    --bg-grandient-green: linear-gradient(to right, #094b3869 100%, #094b38 75%, #094b38 50%);
 
     --fonte-principal: "Source Serif 4", serif;
     --fonte-secundaria: "Dancing Script", cursive;

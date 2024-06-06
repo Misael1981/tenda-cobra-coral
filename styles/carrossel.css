@@ -1,51 +1,66 @@
 .sobre-nos {
-    background-color: var(--br-red);
+    background: var(--bd-terra);
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(../img/imagens-carrossel/banner-sobre-nos.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    height: 30vh;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: nowrap;
-    padding: 8rem;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.sobre-nos__carrossel {
-    width: 40vw;
+.banner__descricao {
+    padding: 5rem 0 2rem 0;
 }
 
-.sobre-nos__descrição {
-    background: linear-gradient(to right, #094b3869 100%, #094b38 75%, #094b38 50%), url(../img/imagens-carrossel/img1.jpg) no-repeat;
-    max-width: 45vw;
-    height: 120vh;
-    object-fit: contain; /* Ajusta o tamanho da imagem para caber no container sem esticá-la */
-    background-size: contain; /* Evita que a imagem fique esticada ou deformada */
-    background-position: center; /* Centraliza a imagem horizontalmente */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
-    border-radius: 10px;
-  }
+.banner p {
+    color: var(--text-light);
+    font-size: 2rem;
+    font-family: var(--fonte-principal);
+    padding: .5rem;
+}
+
+.banner h2 {
+    color: var(--text-green);
+    font-size: 3rem;
+    font-family: var(--fonte-principal);
+}
+
+.sobre-nos__content {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
 
 .sobre-nos__descrição h1 {
-    font-family: var(--fonte-titulo);
-    font-size: 8rem;
     color: var(--text-red);
-    text-align: center;
+    font-size: 6rem;
+    font-family: var( --fonte-titulo);
 }
 
 .sobre-nos__descrição h2 {
     font-family: var(--fonte-secundaria);
-    font-size: 3.5rem;
-    text-align: center;
+    font-size: 4rem;
 }
 
 .sobre-nos__descrição p {
-    color: var(--text-light);
     font-family: var(--fonte-secundaria);
-    font-size: 2.2rem;
-    padding: 1rem;
+    font-size: 2.5rem;
+}
+
+.sobre-nos__carrossel {
+    padding: 2rem 0;
 }
 
 .swiper {
-    width: 25rem;
-    height: 34rem;
+    width: 30rem;
+    height: 40rem;
 }
 
 .swiper img {
@@ -66,62 +81,49 @@ color: #fff;
 }
 
 .swiper-slide:nth-child(1n) {
-background-color: rgb(35, 99, 19);
+background-color: var(--bg-dark);
 }
 
 .swiper-slide:nth-child(2n) {
-background-color: rgb(35, 99, 19);
+background-color: var(--bg-dark);
 }
 
 .swiper-slide:nth-child(3n) {
-background-color: rgb(35, 99, 19);
+background-color: var(--bg-dark);
 }
 
 .swiper-slide:nth-child(4n) {
-background-color: rgb(35, 99, 19);
+background-color: var(--bg-dark);
 }
 
 .swiper-slide:nth-child(5n) {
-background-color: rgb(35, 99, 19);
+background-color: var(--bg-dark);
 }
 
 .swiper-slide:nth-child(6n) {
-background-color: rgb(35, 99, 19);
+background-color: var(--bg-dark);
 }
 
 .swiper-slide:nth-child(7n) {
-background-color: rgb(35, 99, 19);
+background-color: var(--bg-dark);
 }
 
 .swiper-slide:nth-child(8n) {
-background-color: rgb(35, 99, 19);
+background-color: var(--bg-dark);
 }
 
 .swiper-slide:nth-child(9n) {
-background-color: rgb(35, 99, 19);
+background-color: var(--bg-dark);
 }
 
 .swiper-slide:nth-child(10n) {
-background-color: rgb(35, 99, 19);
+background-color: var(--bg-dark);
 }
 
 @media (max-width: 768px) {
-
-    .sobre-nos {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
+    html {
+        font-size: 50%;
     }
-
-    .sobre-nos__descrição {
-        width: 80vw;
-        margin-bottom: 5rem;
-    }
-
-    .sobre-nos__carrossel {
-        width: 80%;
-    }
-
     
     
 }

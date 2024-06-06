@@ -18,8 +18,8 @@
 
 <body>
 
-  <header>
-    <section>
+  <header class="header">
+    
       
       <div class="banner-header">
         <div>
@@ -27,74 +27,100 @@
         </div>
       </div>
 
-      <nav class="nav-menu">
+        <nav class="nav-menu">
+          <button id="hamburguer-button" class="hamburguer-button"
+          aria-label="Menu Principal" aria-controls="menu" aria-expanded="true">
+              <span class="icon"></span>
+          </button>
+          <ul id="menu" class="menu">
+              <li><a href="#">Início</a></li>
+              <li><a href="#">Sobre Nós</a></li>
+              <li><a href="#">História da Umbanda</a></li>
+              <li><a href="#">Filosofia</a></li>
+              <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
 
-        <button id="hamburguer-button" class="hamburguer-button" 
-        aria-label="Menu Principal" aria-controls="menu" aria-expanded="true">
-            <span class="icon"></span>
-        </button>
-
-        <ul id="menu" class="menu">
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre Nós</a></li>
-            <li><a href="#">História da Umbanda</a></li>
-            <li><a href="#">Filosofia</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-
-      </nav>
-
-    </section>
+    
   </header>
   
   <!-- Swiper -->
   <section class="sobre-nos">
+    <div id="banner" class="banner">
+      <div class="banner__descricao">
+        <p>
+          COM OS ESPÍRITOS MAIS EVOLUÍDOS APRENDEREMOS,
+        </p>
+        <P>
+          AOS ESPÍRITOS MENOS EVOLUÍDOS, ENSINAREMOS
+        </P>
+        <P>
+          MAS A NENHUM RENEGAREMOS!!!!
+        </P>
+      </div>
+      <h2>
+        Caboclo Sete Encruzilhadas
+      </h2>
+    </div>
 
-    <div class="sobre-nos__carrossel">
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="img/imagens-carrossel/img1.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/imagens-carrossel/img2.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/imagens-carrossel/img3.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/imagens-carrossel/img4.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/imagens-carrossel/img5.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/imagens-carrossel/img6.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/imagens-carrossel/img7.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/imagens-carrossel/img8.jpg" alt="">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/imagens-carrossel/img9.jpg" alt="">
+    <div class="sobre-nos__content">
+      <div class="sobre-nos__descrição">
+        <div>
+          <h1>Tenda Cobra Coral</h1>
+          <h2>Um pouco da nossa história</h2>
+          <p>
+            Idealizado e fundado pela Mãe de Santo Edmércia, conhecida como Mércia, ela já conhecia a Umbanda a mais de 40 anos, pois seus pais eram praticantes da religião.
+          </p>
+          <p>Desde criança tendo a mediunidade formada, ela já tinha em mente que um dia teria sua própria casa de fé, os anos passaram e não foram gentis quanto ela havia sonhado, e uma afastamento foi necessário, casou – se, teve filhos, e uma vida comum, até que após um divórcio, encontrou Alex, o atual Pai de Santo da casa, esse que não conhecia a Umbanda, a ela foi apresentada, teve sua vida e propósitos mudados a partir dalí, e em meio a seu desenvolvimento mediúnico, em 2017, lhe foi dito que era hora de ser responsável, por algo maior, era hora de se tornar Pai de Santo, e honrar o nome do seu Guia de Cabeça, seu Cobra Coral.</p>
+          <p>Juntou-se assim um propósito e um sonho, e juntos, Alex e Mércia abriram a Tenda Cobra Coral, tendo a benção sagrada de Cabocla Jurema, Guia de cabeça da Mãe de Santo, no começo, eram apenas os dois, e com o tempo foram se achegando mais médiuns e pessoas interessadas, em 2020, em meio ao caos, Iemanjá veio consagrar a casa, trazendo sua benção de mãe... A partir daí a casa tomou um novo formado, mais médiuns chegaram, mais cambones querendo ajudar, mais consulentes buscando cura e conselhos, carinho, mais evolução, e uma união de família se formou, uma união que busca trabalhar a partir do mesmo propósito, o propósito sagrado da Umbanda: AMOR E CARIDADE!</p>
+          <p>Pautados no ensinamento principal do caboclo codificador da Doutrina daUmbanda, o Caboclo das 7 Encruzilhadas: “ Com os espíritos mais evoluídos aprenderemos, e com os menos evoluídos ensinaremos e a ninguém renegaremos!”</p>
+          <p>Nossa casa encontra-se de portas abertas para receber qualquer alma em busca de ajuda, evolução e amor!</p>
+        </div>
+      </div>
+      
+      <div class="sobre-nos__carrossel">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="img/imagens-carrossel/img1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/imagens-carrossel/img2.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/imagens-carrossel/img3.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/imagens-carrossel/img4.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/imagens-carrossel/img5.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/imagens-carrossel/img6.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/imagens-carrossel/img7.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/imagens-carrossel/img8.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="img/imagens-carrossel/img9.jpg" alt="">
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="sobre-nos__descrição">
-      <div>
-        <h1>Tenda Cobra Coral</h1>
-        <h2>Um pouco da nossa história</h2>
+    <div id="banner" class="banner">
+      <div class="banner__descricao">
+        <h2>Horários</h2>
         <p>
-          Idealizado e fundado pela Mãe de Santo Edmércia, conhecida como Mércia, ela já conhecia a Umbanda a mais de 40 anos, pois seus pais eram praticantes da religião. 
+          GIRAS TODAS AS QUINTAS-FEIRAS AS 19:00
         </p>
-        <p>Desde criança tendo a mediunidade formada, ela já tinha em mente que um dia teria sua própria casa de fé, os anos passaram e não foram gentis quanto ela havia sonhado, e uma afastamento foi necessário, casou – se, teve filhos, e uma vida comum, até que após um divórcio, encontrou Alex, o atual Pai de Santo da casa, esse que não conhecia a Umbanda, a ela foi apresentada, teve sua vida e propósitos mudados a partir dalí, e em meio a seu desenvolvimento mediúnico, em 2017, lhe foi dito que era hora de ser responsável, por algo maior, era hora de se tornar Pai de Santo, e honrar o nome do seu Guia de Cabeça, seu Cobra Coral.</p>
-        <p>Juntou-se assim um propósito e um sonho, e juntos, Alex e Mércia abriram a Tenda Cobra Coral, tendo a benção sagrada de Cabocla Jurema, Guia de cabeça da Mãe de Santo, no começo, eram apenas os dois, e com o tempo foram se achegando mais médiuns e pessoas interessadas, em 2020, em meio ao caos, Iemanjá veio consagrar a casa, trazendo sua benção de mãe... A partir daí a casa tomou um novo formado, mais médiuns chegaram, mais cambones querendo ajudar, mais consulentes buscando cura e conselhos, carinho, mais evolução, e uma união de família se formou, uma união que busca trabalhar a partir do mesmo propósito, o propósito sagrado da Umbanda: AMOR E CARIDADE!</p>
-        <p>Pautados no ensinamento principal do caboclo codificador da Doutrina daUmbanda, o Caboclo das 7 Encruzilhadas: “ Com os espíritos mais evoluídos aprenderemos, e com os menos evoluídos ensinaremos e a ninguém renegaremos!”</p>
-        <p>Nossa casa encontra-se de portas abertas para receber qualquer alma em busca de ajuda, evolução e amor!</p>
+        <P>
+          ESTUDOS TODAS AS TERÇAS-FEIRAS AS 19:00
+        </P>
       </div>
     </div>
 
